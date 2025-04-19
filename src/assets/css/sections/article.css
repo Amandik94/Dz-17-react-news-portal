@@ -1,0 +1,53 @@
+  /* Стили для контейнера статьи */
+  .article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(shadow-color);
+    text-align: center;
+  }
+  
+  /* Стили для заголовка статьи */
+  .article-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  /* Стили для изображения статьи */
+  .article-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  /* Стили для содержимого статьи */
+  .article-container p {
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  /* Стили для ссылки на полный текст статьи */
+.article-link {
+  display: inline-block;
+  background-color: var(primary-color);
+  color: var(--text-color);
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.article-link:hover {
+  background-color: var(--hover-color);
+}

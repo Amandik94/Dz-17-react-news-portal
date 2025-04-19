@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .header-upper {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .header-bar {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .header-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .main-container {
+      grid-template-columns: 1fr; 
+      grid-template-rows: auto auto auto auto auto; 
+      grid-template-areas: 
+        "main-title"
+        ". "
+        ". "
+        ". "
+        ". "
+        ". "
+        ". "
+        ". "
+        ". "
+        ". "
+        "show-more-btn"; 
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.main-container {
+    padding: 10px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 0.3fr auto auto auto 0.3fr; 
+    gap: 10px ; 
+    grid-template-areas: 
+      "main-title main-title main-title"
+      ". . ."
+      ". . ."
+      ". . ."
+      "show-more-btn show-more-btn show-more-btn"; 
+  }
+  
+  .main-title {
+    text-align: center;
+    margin: 20px 0;
+    grid-area: main-title;
+  }
